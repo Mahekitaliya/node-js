@@ -1,14 +1,3 @@
-create table client_master(clientno varchar(6),  name varchar(20) ,  address1 varchar(30),address2 varchar(30) , city varchar(15) , pincode int,state varchar(15), balude int);
-
-
-("C00001" ,'ivan bayross',"A/14","Worli",'mumbai',400054,"Maharashtra",15000),
-
-insert into client_master(clientno,name,address1,address2,city,pincode,state,balude) values 
-("C00002" ,'mamta muzumdar',"A/14","Worli",'madras',400054,"Maharashtra",0),
-("C00003" ,'chhaya bankar',"A/15","Worli",'mumbai',400054,"Maharashtra",5000),
-("C00004" ,'ashwini joshi',"A/16","Worli",'bangalore',400054,"Maharashtra",0),
-("C00005" ,'hansel colaco',"A/17","Worli",'mumbai',400054,"Maharashtra",2000),
-("C00006" ,'deepak sharma',"A/18","Worli",'mangalore',400054,"Maharashtra",0);
 
 select * from client_master;
 
@@ -34,6 +23,11 @@ insert into CLIENT_MASTER values
 ("C00004","Ashwini Joshi","A/5","Juhu","Banglore",560001,"Karnataka",0), 
 ("C00005","Hansel Calco","p-6","Bandra","Mandras",400060,"Maharastra",2000), 
 ("C00006","Deepak Sharma","A/12","Bandra","Manglore",560050,"Karnataka",0); 
+ 
+
+
+ select * from client_master;
+
  
 -- 2.create table PRODUCT_MASTER  
 create table PRODUCT_MASTER (ProductNo varchar(8),Description varchar(30),Profit_percentage int,Unit_Measure varchar(10),QtyOnHand int,ReorderLvl int,SellingPrice int,CostPrice int); 
