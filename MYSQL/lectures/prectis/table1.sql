@@ -1,15 +1,4 @@
 
-select * from client_master;
-
-
--- filter data
-select * from product_master where qtyonhand = 100;
-
--- update
-update product_master set qtyonhand = 10 where description = 'Trousers';
--- delete
-
-delete from product_master where description = 'Shirts';
 
 
 --1. create table CLIENT_MASTER  
