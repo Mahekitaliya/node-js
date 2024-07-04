@@ -29,3 +29,12 @@ select * from students where city IN ('surat', 'mumbai');
 
 -- not in
 select * from students where city NOT IN ('surat', 'mumbai');
+
+-- order by cluse
+
+
+-- ascending
+select * from students order by city ASC;
+
+--descending
+select * from students order by city DESC;
