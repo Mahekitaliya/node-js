@@ -1,4 +1,4 @@
---opretor
+
 
 create table students(firstname varchar(50), lastname varchar(50) ,  age int , city varchar(10) , maths int ,english int , gujrati int);
 
